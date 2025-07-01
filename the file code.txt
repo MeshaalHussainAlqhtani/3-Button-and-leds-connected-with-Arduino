@@ -1,0 +1,11 @@
+const int button1=2;
+const int button2=3;
+const int button3=5;
+void setup(){
+  pinMode(button1,INPUT);
+   pinMode(button2,INPUT);
+   pinMode(button3,INPUT);
+}
+void loop(){
+  int buttonState1=digitalRead(button1);
+}
